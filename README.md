@@ -14,7 +14,9 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] Example item
+* [ ] This project used the long-s; keep an eye out for mistakes.
+* [ ] PM specifically requested submission to SR
+
 
 ### Project manager notes ###
 
@@ -45,6 +47,11 @@ If you have any questions about this project, please ask in the forum thread.
 ***Thank you for working on this project!***
 
 ### Forum notes ###
+
+> All of the small caps in this volume are also printed as gesperrt.
+> Should we mark them as both?
+
+PM responds: no, only small-caps.
 
 ### General notes ###
 

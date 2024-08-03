@@ -13,10 +13,10 @@ cd ~/dp/util
 . venv/bin/activate
 ./make_project.py
 ```
-* [ ] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID667eac014dacd#project-comments)
-* [ ] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=81922) and read all posts
-* [ ] Open `whorepoem-utf8.txt` in Guiguts
-* [ ] `File → Project → Configure Page Labels`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
+* [x] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID667eac014dacd#project-comments)
+* [x] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=81922) and read all posts
+* [x] Open `whorepoem-utf8.txt` in Guiguts
+* [x] `File → Project → Configure Page Labels`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 
 ### Sequential Inspection of Text
 * [ ] `Preferences → Appearance → Enable Scanno Highlighting`

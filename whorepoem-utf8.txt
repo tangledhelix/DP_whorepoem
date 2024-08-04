@@ -4,7 +4,7 @@
 
 
 
-/*
+/F
 THE
 
 WHORE:
@@ -12,14 +12,14 @@ WHORE:
 A POEM.
 
 [Price One Shilling.]
-*/
+F/
 -----File: 002.png---------------------------------------------------------
 -----File: 003.png---------------------------------------------------------
 
 
 
 
-/*
+/F
 THE
 
 WHORE:
@@ -45,7 +45,7 @@ LONDON
 
 Printed for the <sc>Author</sc>; and sold at the Pamphlet-Shop opposite <sc>Anderton</sc>'s Coffee-House,
 <sc>Fleet-Street</sc>, and at all other Pamphlet-Shops.
-*/
+F/
 -----File: 004.png---------------------------------------------------------
 -----File: 005.png---------------------------------------------------------
 
@@ -64,7 +64,7 @@ WHORE:
 A POEM.
 
 
-/*
+/P
 Thanks to the age, the satyrizing Muse
 Has themes sufficient--where she will to chuse;
 Whither among the vulgar scenes of strife,
@@ -465,7 +465,7 @@ By all unpityed, to the arms of death!
 
   <sc>Yet</sc> ev'ry one of feeling must deplore,
 That man, vile man, first made the wretch a WHORE!
-*/
+P/
 
 
 FINIS.

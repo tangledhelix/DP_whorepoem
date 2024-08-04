@@ -88,11 +88,28 @@ PM responds: no, only small-caps.
 
 ### Proofer's notes ###
 
+007: `If he cant't[**typo in original text] eat,`
+
+Expanding Ngrams search range to begin in 1700, there's a surprising graph that suggests this usage may have been valid throughout the 18th century and tapered off in the 19th to vanish by the beginning of the 20th... but comparing with `can't` over the same period, it seems to have been a possibly common printer error? In that graph it drops to be flat.
+
+![Ngrams graph for cant't](notes-images/ngrams-cantt.png "Ngrams graph for cant't")
+
+![Ngrams graph for can't, cant't](notes-images/ngrams-cant-cantt.png "Ngrams graph for can't, cant't")
+
+008: `mourn'd my hapless fate;[** , ?]`
+
+Reviewing the spacing after a word, before `,` and `;`, this appears to be `,`.
+
 ### Joined hyphenated words ###
 
 ### Spellcheck ###
 
 ### Transcriber's notes ###
+
+```
+p. 7: changed cant’t to can’t (If he cant’t eat)
+p. 9: changed tanght to taught (lessons you’d been taught)
+```
 
 ### Ebook review ###
 

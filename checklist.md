@@ -217,8 +217,8 @@ Use the `Search` menu:
 * [x] Check for unexpected `*` to make sure no stray proofer notes or split-word/fn markers were missed
 
 ### Save Edited Markup
-* [ ] Save any unsaved changes
-* [ ] Use `File → Save a Copy As` to make `whorepoem.html`
+* [x] Save any unsaved changes
+* [x] Use `File → Save a Copy As` to make `whorepoem.html`
   * This will be the starting file for the HTML version. You can also use it  as fallback in case you mess up and need to start the following steps over.
 
 ## Prepare the Plain Text Version

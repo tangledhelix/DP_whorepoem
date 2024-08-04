@@ -293,7 +293,7 @@ Indulge his feelings in a close embrace;
 Will, at the tavern, circulate his glass,
 And take, with glee, his bottle and his lass.
 
-  <sc>Go</sc> to the <i>Commons</i>[A], to the <i>Arches</i> go,
+  <sc>Go</sc> to the <i>Commons</i>[1], to the <i>Arches</i> go,
 Where, for divorces, people sue, we know.
 The Judges and the Proctors, so devout,
 Would, with the culprit, wish to have a bout.
@@ -308,7 +308,7 @@ Those who have money may with ease untie;
 Yet there's no sister ever this deplores,
 Because it adds so to the list of WHORES.
 
-[Footnote A: <sc>Doctor's Commons.</sc>]
+[Footnote 1: <sc>Doctor's Commons.</sc>]
 
   <sc>Ask</sc> at that place where Lords and Commons sit,
 To shew at once their eloquence and wit;

@@ -161,20 +161,20 @@ Check for:
 * Work through the list, correcting as appropriate.
 
 ### Apply Spellcheck
-- [ ] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+- [x] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 
 ### Fix Sidenotes
-- [ ] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
+- [x] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
   * Compare to page image. Move note above paragraph if feasible.
   * Otherwise, position it above the sentence to which it applies, with blank lines to prevent rewrapping if you decide that is best.
 
 ### Fix Footnotes
-* [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
+* [x] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
   * `First Pass`
   * `Next / Prev FN` to navigate
   * Look for `*` and use `Join with Previous` to join them
   * THERE MUST BE NO ERRORS AT TOP OF WINDOW
-* [ ] Move footnotes between paragraphs
+* [x] Move footnotes between paragraphs
   * `Footnote Fixup`, `First Pass`
   * `All to Number`, `Reindex`
   * `First Pass`, `Move FNs to Para`
@@ -182,7 +182,7 @@ Check for:
   * Run checks, find para and error, move footnotes as needed
 
 ### Fix Poetry Line Numbers
-- [ ] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
+- [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
 
 ### Check balanced markup
 Use the `Search` menu:

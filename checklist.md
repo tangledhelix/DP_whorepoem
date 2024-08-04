@@ -151,17 +151,12 @@ Check for:
   * Add TN to text version about this superscript notation
 
 ### Apply Bookloupe
-* [ ] If you have Bookloupe installed, use `Tools → Bookloupe`.
+* [x] If you have Bookloupe installed, use `Tools → Bookloupe`.
   * Forward slash
   * HTML tag
-  * Long line
-  * Mismatched quotes
-  * Mismatched square brackets
   * No CR
   * Non-ASCII character
   * Non-ISO-8859 character
-  * Short line
-  * Wrongspaced quotes
 * Otherwise, use pptext from the [Post-Processing Workbench](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_Workbench).
 * Work through the list, correcting as appropriate.
 

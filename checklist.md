@@ -213,8 +213,8 @@ Use the `Search` menu:
 * Any dashes not covered above are simple hyphens.
 
 ### Last pre-split check
-* [ ] Look at the revisit list for anything to handle before text/html split
-* [ ] Check for unexpected `*` to make sure no stray proofer notes or split-word/fn markers were missed
+* [x] Look at the revisit list for anything to handle before text/html split
+* [x] Check for unexpected `*` to make sure no stray proofer notes or split-word/fn markers were missed
 
 ### Save Edited Markup
 * [ ] Save any unsaved changes

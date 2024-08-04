@@ -18,30 +18,13 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 * [ ] PM specifically requested submission to SR
 * [ ] Need a cover: use 001
 * [ ] 005: illustrated drop-cap **in poetry** may need special handling
-* [ ] some gesperrt in the poem, how to handle?
+* [x] some gesperrt in the poem, decide how to handle
     * Italic text is used for emphasis too. Use an `em.gesperrt` class?
     * Decide how to handle gesperrt in the text version. Add spacing? Ignore?
-    * Various are in `<sc>` already but some aren't
-    * [ ] 003 LONDON
-    * [ ] 005 Vice
-    * [ ] 006 WHORE, "Sons of Whores", Whore, God, Eve, God, evil, tail
-    * [ ] 007 But, WHORE, OLD, YOUNG, "This Newton"
-    * [ ] 008 "But Grosv'nor", Grosvenor, WHORE, "Poor Ligonier"
-    * [ ] 009 Worsley, But, Mam, Dad, Virtue, Prudence
-    * [ ] 010 Of, A tender, God
-    * [ ] 011 WHORE, The
-    * [ ] 012 The, Nature, Again, Prue, The, Prue
-    * [ ] 013 Was, HARLOT, Such
-    * [ ] 014 Venus, WHORES, But, The, WHORE, Prostitute, WHORE, WHORES, What, WHORES, Rogue, The, Priest
-    * [ ] 015 WHORES, "The Justice", HARLOT's, WHORE
-    * [ ] 016 Go, WHORES
-    * [ ] 017 WHORE, The, WHORES, Have
-    * [ ] 018 WHORE, Ye, Sons, WHORES, Not
-    * [ ] 019 Lothario, About
-    * [ ] 020 He, His, neglected WHORE, Fruition
-    * [ ] 021 WHORE, WHORE, WHORES
-    * [ ] 022 WHORE
-    * [ ] 023 Yet, WHORE, FINIS
+    * Some are `<sc>` but some aren't, and not all `<sc>` are gesperrt.
+    * Clearly it's used for emphasis. Italics also in use. In the text version use `~word~` and in HTML follow the [Gesperrt Emphasis case study](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Inline_Formatting/Gesperrt_Emphasis).
+* [ ] Handle gesperrt in text version
+* [ ] Handle gesperrt in html version
 
 ### Project manager notes ###
 
@@ -107,6 +90,17 @@ Reviewing the spacing after a word, before `,` and `;`, this appears to be `,`.
 ### Transcriber's notes ###
 
 ```
+Some inconsistencies in spelling, hyphenation, and punctuation have been
+retained.
+
+[text]
+This file uses _underscores_ to indicate italic text and ~tilde~ to indicate
+gesperrt text (which was  s p a c e d   o u t  for emphasis in the original).
+
+[html]
+Some typographic conventions have been normalized, e.g., the use of small
+capitals to begin each stanza.
+
 p. 7: changed cant’t to can’t (If he cant’t eat)
 p. 9: changed tanght to taught (lessons you’d been taught)
 ```

@@ -14,9 +14,34 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] This project used the long-s; keep an eye out for mistakes.
+* [ ] This project uses `ſ` ("long s"); keep an eye out for mistakes.
 * [ ] PM specifically requested submission to SR
-
+* [ ] Need a cover: use 001
+* [ ] 005: illustrated drop-cap **in poetry** may need special handling
+* [ ] some gesperrt in the poem, how to handle?
+    * Italic text is used for emphasis too. Use an `em.gesperrt` class?
+    * Decide how to handle gesperrt in the text version. Add spacing? Ignore?
+    * Various are in `<sc>` already but some aren't
+    * [ ] 003 LONDON
+    * [ ] 005 Vice
+    * [ ] 006 WHORE, "Sons of Whores", Whore, God, Eve, God, evil, tail
+    * [ ] 007 But, WHORE, OLD, YOUNG, "This Newton"
+    * [ ] 008 "But Grosv'nor", Grosvenor, WHORE, "Poor Ligonier"
+    * [ ] 009 Worsley, But, Mam, Dad, Virtue, Prudence
+    * [ ] 010 Of, A tender, God
+    * [ ] 011 WHORE, The
+    * [ ] 012 The, Nature, Again, Prue, The, Prue
+    * [ ] 013 Was, HARLOT, Such
+    * [ ] 014 Venus, WHORES, But, The, WHORE, Prostitute, WHORE, WHORES, What, WHORES, Rogue, The, Priest
+    * [ ] 015 WHORES, "The Justice", HARLOT's, WHORE
+    * [ ] 016 Go, WHORES
+    * [ ] 017 WHORE, The, WHORES, Have
+    * [ ] 018 WHORE, Ye, Sons, WHORES, Not
+    * [ ] 019 Lothario, About
+    * [ ] 020 He, His, neglected WHORE, Fruition
+    * [ ] 021 WHORE, WHORE, WHORES
+    * [ ] 022 WHORE
+    * [ ] 023 Yet, WHORE, FINIS
 
 ### Project manager notes ###
 
@@ -56,6 +81,10 @@ PM responds: no, only small-caps.
 ### General notes ###
 
 ### Illustrations ###
+
+* [ ] 005: top-of-page decoration
+* [ ] 005: illustrated drop-cap
+* [ ] 023: end of book decoration
 
 ### Proofer's notes ###
 

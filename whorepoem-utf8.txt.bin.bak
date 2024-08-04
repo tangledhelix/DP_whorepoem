@@ -25,7 +25,7 @@
 );
 
 
-$::bookmarks[0] = '1.0';
+$::bookmarks[0] = '428.16';
 
 $::pngspath = '/Users/dan/dp/pp/whorepoem/pngs/';
 

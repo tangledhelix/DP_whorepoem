@@ -22,8 +22,8 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
     * Italic text is used for emphasis too. Use an `em.gesperrt` class?
     * Decide how to handle gesperrt in the text version. Add spacing? Ignore?
     * Some are `<sc>` but some aren't, and not all `<sc>` are gesperrt.
-    * Clearly it's used for emphasis. Italics also in use. In the text version use `~word~` and in HTML follow the [Gesperrt Emphasis case study](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Inline_Formatting/Gesperrt_Emphasis).
-* [ ] Handle gesperrt in text version
+    * Clearly it's used for emphasis. Italics also in use. In the text version use `=word=` and in HTML follow the [Gesperrt Emphasis case study](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Inline_Formatting/Gesperrt_Emphasis).
+* [x] Handle gesperrt in text version
 * [ ] Handle gesperrt in html version
 
 ### Project manager notes ###
@@ -94,7 +94,7 @@ Some inconsistencies in spelling, hyphenation, and punctuation have been
 retained.
 
 [text]
-This file uses _underscores_ to indicate italic text and ~tilde~ to indicate
+This file uses _underscores_ to indicate italic text and =equals= to indicate
 gesperrt text (which was  s p a c e d   o u t  for emphasis in the original).
 
 [html]

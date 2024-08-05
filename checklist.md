@@ -224,38 +224,38 @@ Use the `Search` menu:
 ## Prepare the Plain Text Version
 We now proceed to create a Plain Text Version of the book.
 
-* [ ] Re-open `whorepoem-utf8.txt` (if not still open).
+* [x] Re-open `whorepoem-utf8.txt` (if not still open).
 
 ### Convert `<tb>`, Italic, Bold, and Smallcap
-* [ ] Use `Txt → Txt Conversion Palette`:
-  * [ ] Convert [inline formatting](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Formatting_at_the_Character_Level:).
-  * [ ] Convert [thought breaks](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Thought_Breaks_.28Extra_Spacing.2FDecoration_Between_Paragraphs.29).
-  * [ ] Convert [smallcaps](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Guide_to_smallcaps).
+* [x] Use `Txt → Txt Conversion Palette`:
+  * [x] Convert [inline formatting](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Formatting_at_the_Character_Level:).
+  * [x] Convert [thought breaks](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Thought_Breaks_.28Extra_Spacing.2FDecoration_Between_Paragraphs.29).
+  * [x] Convert [smallcaps](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Guide_to_smallcaps).
 
 ### Fix ASCII Tables
-* [ ] Use `Search → Find Next /**/ Block` to step through all tabular material.
+* [x] Use `Search → Find Next /**/ Block` to step through all tabular material.
   * Compare to page image; reformat to best convey author intent.
   * For complex tables, use `Txt → ASCII Table Effects` to reformat.
 
 ### Rewrap and Clear Rewrap Markers
-* [ ] Save the file if any unsaved changes.
-* [ ] Use `Tools → Rewrap All`. Wait while rewrap completes.
-* [ ] Page through entire text, looking for improper indentation. If found, re-open, clicking NO when asked if you want to save the edits. Find and fix broken rewrap markups. Repeat this step.
-* [ ] Under `Tools → Footnote Fixup`, use the `Tidy Up Footnotes` button.
-* [ ] Use `Tools → Clean Up Rewrap Markers`.
-* [ ] Use `Tools → Remove End-of-line Spaces`.
-* [ ] Rerun Bookloupe or pptext. Resolve any new issues.
-* [ ] Save the document.
+* [x] Save the file if any unsaved changes.
+* [x] Use `Tools → Rewrap All`. Wait while rewrap completes.
+* [x] Page through entire text, looking for improper indentation. If found, re-open, clicking NO when asked if you want to save the edits. Find and fix broken rewrap markups. Repeat this step.
+* [x] Under `Tools → Footnote Fixup`, use the `Tidy Up Footnotes` button.
+* [x] Use `Tools → Clean Up Rewrap Markers`.
+* [x] Use `Tools → Remove End-of-line Spaces`.
+* [x] Rerun Bookloupe or pptext. Resolve any new issues.
+* [x] Save the document.
 
 ### Final checks
-* [ ] Search for `<` and `>` to locate any tag markup not yet removed.
+* [x] Search for `<` and `>` to locate any tag markup not yet removed.
 
 ### Check revisit list
-- [ ] Check "things to revisit" list for anything lingering in the text version
+- [x] Check "things to revisit" list for anything lingering in the text version
 
 ### Add TN
-* [ ] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter
-* [ ] Rewrap this section of text when finished.
+* [x] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter
+* [x] Rewrap this section of text when finished.
 
 ```text
 Transcriber's Notes
@@ -278,10 +278,10 @@ p. 123: changed “foo” to “fool” (the fool and his money)
 ```
 
 ### Final review
-- [ ] Skim over text file to find any obvious issues
+- [x] Skim over text file to find any obvious issues
 
 ### Validation
-* [ ] Run [PWBB](https://www.pgdp.net/ppwb/index.php) pptext check
+* [x] Run [PWBB](https://www.pgdp.net/ppwb/index.php) pptext check
 * TODO: add pptools here it supports HTML5
 
 ## Prepare the HTML Version

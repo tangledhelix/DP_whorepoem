@@ -304,9 +304,9 @@ Finally, we create an HTML version of the book.
 * [ ] Use `HTML → HTML Markup` to make improvements. Use regex replacements to make systematic changes.
   * Where you see a problem, make a correction in Guiguts, save the file, and click the "reload" button in the web browser.
 * [ ] Hyperlink page references in text, TOC, and index (discussed [here](https://www.pgdp.net/wiki/PPTools/Guiguts/HTML#Hyperlinking_Page_Numbers) and [here](https://www.pgdp.net/wiki/Indexes)).
-* [ ] Remove the [Generated TOC](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/HTML_Menu#Generated_TOC) if it is not needed.
-* [ ] If `A.M.` `P.M.` or similar abbreviations were used and have spaces, insert `&nbsp;` to avoid undesirable mid-abbreviation line wraps.
-* [ ] If superscripts were used, convert to `<sup>`
+* [x] Remove the [Generated TOC](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/HTML_Menu#Generated_TOC) if it is not needed.
+* [x] If `A.M.` `P.M.` or similar abbreviations were used and have spaces, insert `&nbsp;` to avoid undesirable mid-abbreviation line wraps.
+* [x] If superscripts were used, convert to `<sup>`
 * TODO: does the HTML converter do this automatically for `^` or `^{n}`?
 * [ ] Semantic fixup for italics
   * Search `<i>((.|\n)+?)</i>`
@@ -314,7 +314,7 @@ Finally, we create an HTML version of the book.
   * Replace (citation) `<cite>$1</cite>`
   * Replace ([languages](http://www.w3schools.com/tags/ref_language_codes.asp)) `<i lang="fr">$1</i>`
   * Leave other cases as `<i>..</i>`
-* [ ] Add `abbr` tags if appropriate.
+* [x] Add `abbr` tags if appropriate.
 * [ ] If there is a cover image for e-readers supplied with the project, or you are creating one yourself, you can find information on what is needed in your HTML in the [Proofreaders' Guide to EPUB](https://www.pgdp.net/wiki/The_Proofreader%27s_Guide_to_EPUB#Cover_Page) or the [PP guide to cover pages](https://www.pgdp.net/wiki/PP_guide_to_cover_pages).
 
 ### Process Hi-resolution Images

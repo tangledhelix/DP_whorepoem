@@ -25,6 +25,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
     * Clearly it's used for emphasis. Italics also in use. In the text version use `=word=` and in HTML follow the [Gesperrt Emphasis case study](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Inline_Formatting/Gesperrt_Emphasis).
 * [x] Handle gesperrt in text version
 * [ ] Handle gesperrt in html version
+* [ ] Title page: names like `A——d` wrap mid-word, is there a way to control it?
 
 ### Project manager notes ###
 

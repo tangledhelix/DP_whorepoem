@@ -318,49 +318,30 @@ Finally, we create an HTML version of the book.
 * [x] If there is a cover image for e-readers supplied with the project, or you are creating one yourself, you can find information on what is needed in your HTML in the [Proofreaders' Guide to EPUB](https://www.pgdp.net/wiki/The_Proofreader%27s_Guide_to_EPUB#Cover_Page) or the [PP guide to cover pages](https://www.pgdp.net/wiki/PP_guide_to_cover_pages).
 
 ### Process Hi-resolution Images
-If the project manager provided high-resolution scans of the images in the text, use an image processing program such as GIMP or Adobe Photoshop Elements to optimize them—see [Guide to Image Processing](https://www.pgdp.net/wiki/Guide_to_Image_Processing). You can do this before, during, or after HTML conversion. For each image:
+If the project manager provided high-resolution scans of the images in the text, use an image processing program such as GIMP or Adobe Photoshop Elements to optimize them—see [Guide to Image Processing](https://www.pgdp.net/wiki/Guide_to_Image_Processing). You can do this before, during, or after HTML conversion.
 
-* [ ] Load image from the `illustrations/` folder (see the Initial Setup step).
-* [ ] Straighten it (almost all scanned images are off-perpendicular; some are trapezoidal owing to the page not being flat on the scan window). Perspective tool.
-* [ ] Crop it to remove all redundant white space and borders (provide margins and borders with CSS styling of the `<img>` markup).
-* [ ] Correct the contrast
-* [ ] Use the [dodge/burn layer technique](https://www.pgdp.net/wiki/Guide_to_Image_Processing#Linear_Light_in_The_GIMP) to clean up, at least for line drawings
-* [ ] Sharpen.
-* [ ] Correct any major scratches, freckles, dirt, etc.
-* [ ] Save in the subfolder images using appropriate type:
+Unless purely decorative, add an `alt` tag for each image unless it has a caption. For decoration, use `alt=""` (empty string).
+
+Image [sizes](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=70286):
+* Inline: up to 256K, 5000x5000 pixels
+* Linked: up to 1MB, 5000x5000 pixels. Should only need linked images for large or complex things, e.g. maps.
+* Covers: see [cover documentation](https://www.pgdp.net/wiki/PP_guide_to_cover_pages). Recommend 1600x2560, aspect ratio ~1:1.6. Not over 5000x5000px, 256K. Minimum 650x1000.
+
+For each image:
+* [x] Load image from the `illustrations/` folder (see the Initial Setup step).
+* [x] Straighten it (almost all scanned images are off-perpendicular; some are trapezoidal owing to the page not being flat on the scan window). Perspective tool.
+* [x] Crop it to remove all redundant white space and borders (provide margins and borders with CSS styling of the `<img>` markup).
+* [x] Correct the contrast
+* [x] Use the [dodge/burn layer technique](https://www.pgdp.net/wiki/Guide_to_Image_Processing#Linear_Light_in_The_GIMP) to clean up, at least for line drawings
+* [x] Sharpen.
+* [x] Correct any major scratches, freckles, dirt, etc.
+* [x] Save in the subfolder images using appropriate type:
   * Line drawings in `.png` at 8 bits per pixel (not the default 24-bit RGB format).
   * Photographs as `.jpg` with an appropriate compression level such as (Photoshop) level 6.
-* [ ] Under `HTML → HTML Generator`, use the `Auto Illus Search` button. This will help add the images to the book.
-* [ ] Page through entire HTML book making sure that each image is being loaded correctly. Test each thumbnail if used.
-
-* TODO: were footnotes handled in HTML already?
-* TODO: does guiguts magically do the page numbers but hide for ebookmaker?
-* TODO: does it mention alt tags on images?
-* TODO: are image sizes mentioned? can use linked images for big, complex, ie. maps
-  * inline: up to 256K, 5000x5000 pixels
-  * linked: up to 1MB, 5000x5000 pixels
-  * covers: see cover documentation, 1600x2560, ratio ~1:1.6 not over 5000x5000px
-* TODO: where were /* */ style blocks processed / checked for HTML?
-
-* TODO: notes on images:
-```text
-thread on sizes: https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=70286
-use alt tags; alt="" for decorative
-cover MIN 650x1000, max 5000x5000, not over 256kb. see thread for suggested.
-  there is also a suggested ratio to use. these came from Kindle I think.
-regular images not over 256kb, 5000x5000.
-linked images not over 1mb, 5000x5000.
-png for monochrome/simpler, jpeg for color/more complexity. jpeg more compressible.
-don't need alt tag if there's a caption tag.
-https://www.pgdp.net/wiki/Guide_to_Image_Processing
-https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#Preparing_illustrations_for_the_HTML_version
-```
-
-* TODO: table of illustrations if there is one
-* TODO: modifying an image substantially (incl. removing library sticker/stamp), add a note in TN about it; also place in public domain in TN. (PG requirement)
-
-* TODO: Fully fabricated a cover? add the TN as noted 
-  * https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover
+* [x] Under `HTML → HTML Generator`, use the `Auto Illus Search` button. This will help add the images to the book.
+* [x] Page through entire HTML book making sure that each image is being loaded correctly. Test each thumbnail if used.
+* [x] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
+* [x] If fabricating your own cover, add the TN as noted in [Easy_Epub/Cover](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover).
 
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.

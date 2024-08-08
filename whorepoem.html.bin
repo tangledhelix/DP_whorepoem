@@ -1,33 +1,34 @@
 %::pagenumbers = (
  'Pg001' => {'offset' => '1.0', 'label' => 'Pg 1', 'style' => 'Arabic', 'action' => 'Start @', 'base' => '1'},
- 'Pg002' => {'offset' => '289.45', 'label' => 'Pg 2', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg003' => {'offset' => '289.45', 'label' => 'Pg 3', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg004' => {'offset' => '326.0', 'label' => 'Pg 4', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg005' => {'offset' => '326.0', 'label' => 'Pg 5', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg006' => {'offset' => '351.62', 'label' => 'Pg 6', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg007' => {'offset' => '373.70', 'label' => 'Pg 7', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg008' => {'offset' => '399.76', 'label' => 'Pg 8', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg009' => {'offset' => '423.83', 'label' => 'Pg 9', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg010' => {'offset' => '447.74', 'label' => 'Pg 10', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg011' => {'offset' => '471.69', 'label' => 'Pg 11', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg012' => {'offset' => '497.76', 'label' => 'Pg 12', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg013' => {'offset' => '523.71', 'label' => 'Pg 13', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg014' => {'offset' => '547.75', 'label' => 'Pg 14', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg015' => {'offset' => '573.70', 'label' => 'Pg 15', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg016' => {'offset' => '595.71', 'label' => 'Pg 16', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg017' => {'offset' => '620.71', 'label' => 'Pg 17', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg018' => {'offset' => '644.78', 'label' => 'Pg 18', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg019' => {'offset' => '668.72', 'label' => 'Pg 19', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg020' => {'offset' => '690.77', 'label' => 'Pg 20', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg021' => {'offset' => '716.72', 'label' => 'Pg 21', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg022' => {'offset' => '738.80', 'label' => 'Pg 22', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg023' => {'offset' => '758.80', 'label' => 'Pg 23', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg002' => {'offset' => '293.45', 'label' => 'Pg 2', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg003' => {'offset' => '293.45', 'label' => 'Pg 3', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg004' => {'offset' => '330.0', 'label' => 'Pg 4', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg005' => {'offset' => '330.0', 'label' => 'Pg 5', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg006' => {'offset' => '357.62', 'label' => 'Pg 6', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg007' => {'offset' => '379.70', 'label' => 'Pg 7', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg008' => {'offset' => '405.76', 'label' => 'Pg 8', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg009' => {'offset' => '429.83', 'label' => 'Pg 9', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg010' => {'offset' => '453.74', 'label' => 'Pg 10', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg011' => {'offset' => '477.69', 'label' => 'Pg 11', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg012' => {'offset' => '503.76', 'label' => 'Pg 12', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg013' => {'offset' => '529.71', 'label' => 'Pg 13', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg014' => {'offset' => '553.75', 'label' => 'Pg 14', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg015' => {'offset' => '579.70', 'label' => 'Pg 15', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg016' => {'offset' => '601.71', 'label' => 'Pg 16', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg017' => {'offset' => '626.71', 'label' => 'Pg 17', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg018' => {'offset' => '650.78', 'label' => 'Pg 18', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg019' => {'offset' => '674.72', 'label' => 'Pg 19', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg020' => {'offset' => '696.77', 'label' => 'Pg 20', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg021' => {'offset' => '722.72', 'label' => 'Pg 21', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg022' => {'offset' => '744.80', 'label' => 'Pg 22', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg023' => {'offset' => '764.80', 'label' => 'Pg 23', 'style' => '"', 'action' => '+1', 'base' => ''},
 );
 
 
-$::bookmarks[0] = '1.0';
-$::bookmarks[1] = '344.68';
-$::bookmarks[2] = '324.24';
+$::bookmarks[0] = '780.21';
+$::bookmarks[1] = '279.18';
+$::bookmarks[2] = '337.10';
+$::bookmarks[3] = '779.46';
 
 $::pngspath = '/Users/dan/dp/pp/whorepoem/pngs/';
 

@@ -7,7 +7,7 @@
  'Pg006' => {'offset' => '351.62', 'label' => 'Pg 6', 'style' => '"', 'action' => '+1', 'base' => ''},
  'Pg007' => {'offset' => '373.70', 'label' => 'Pg 7', 'style' => '"', 'action' => '+1', 'base' => ''},
  'Pg008' => {'offset' => '399.76', 'label' => 'Pg 8', 'style' => '"', 'action' => '+1', 'base' => ''},
- 'Pg009' => {'offset' => '423.81', 'label' => 'Pg 9', 'style' => '"', 'action' => '+1', 'base' => ''},
+ 'Pg009' => {'offset' => '423.83', 'label' => 'Pg 9', 'style' => '"', 'action' => '+1', 'base' => ''},
  'Pg010' => {'offset' => '447.74', 'label' => 'Pg 10', 'style' => '"', 'action' => '+1', 'base' => ''},
  'Pg011' => {'offset' => '471.69', 'label' => 'Pg 11', 'style' => '"', 'action' => '+1', 'base' => ''},
  'Pg012' => {'offset' => '497.76', 'label' => 'Pg 12', 'style' => '"', 'action' => '+1', 'base' => ''},
@@ -25,7 +25,7 @@
 );
 
 
-$::bookmarks[0] = '494.33';
+$::bookmarks[0] = '1.0';
 $::bookmarks[1] = '344.68';
 $::bookmarks[2] = '324.24';
 

@@ -67,9 +67,9 @@ PM responds: no, only small-caps.
 
 ### Illustrations ###
 
-* [ ] 005: top-of-page decoration
-* [ ] 005: illustrated drop-cap
-* [ ] 023: end of book decoration
+* [x] 005: top-of-page decoration
+* [x] 005: illustrated drop-cap
+* [x] 023: end of book decoration
 
 ### Proofer's notes ###
 

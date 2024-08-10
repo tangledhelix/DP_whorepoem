@@ -236,7 +236,7 @@ img.w100 {width: 100%;}
 .poetry-container {display: flex; justify-content: center;}
 /*.poetry-container {text-align: center;}*/
 .poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-.poetry .stanza   {margin: 1em auto;}
+.poetry .stanza   {margin: 1em auto; page-break-inside: avoid;}
 .poetry .verse    {text-indent: -3em; padding-left: 3em;}
 
 /* Transcriber's notes */
@@ -273,12 +273,43 @@ h1 .ti-lg { font-size: 0.6em; }
 .smaller {
   font-size: 0.85em;
 }
-/* dropcap first-word */
+/* dropcap */
 .uppercase { text-transform: uppercase; }
+.verse.idc img {
+  float: left;
+  clear: left;
+  max-width: 3.5em;
+  width: 3.5em;
+  margin-left: -6.8em;
+}
+.firstword {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 2.2em;
+}
+.firstword::first-letter {
+  color: transparent;
+}
+.x-ebookmaker .verse.idc img {
+  float: none;
+  clear: none;
+  display: none;
+  visibility: hidden;
+  max-width: 0.001em;
+  width: 0.001em;
+  margin-left: 0;
+}
+.x-ebookmaker .firstword {
+  display: inline;
+  margin-left: 0;
+}
+.x-ebookmaker .firstword::first-letter {
+  color: inherit;
+}
 
 /* Illustration classes */
 .illowe10 {width: 6em; max-width: 50%;}
-.illowp100 {width: 100%;}
+.illowp100 {width: 100%; max-width: 32em;}
     </style>
 </head>
 <body>
@@ -347,7 +378,7 @@ the Ladies <span class="smcap">L——r</span>, <span class="smcap">G——r</sp
 <div class="poetry-container">
 <div class="poetry">
   <div class="stanza">
-    <div class="verse indent0"><span class="gesperrt smcap uppercase">Thanks</span> to the age, the satyrizing Muse</div>
+    <div class="verse indent0 idc"><img alt="T" src="images/i_005b.png"><span class="gesperrt smcap firstword">Thanks</span> to the age, the satyrizing Muse</div>
     <div class="verse indent0">Has themes sufficient—where she will to chuse;</div>
     <div class="verse indent0">Whither among the vulgar scenes of strife,</div>
     <div class="verse indent0">Or those renown’d for <span class="smcap gesperrt">Vice</span> in higher life.</div>

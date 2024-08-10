@@ -14,10 +14,11 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] This project uses `ſ` ("long s"); keep an eye out for mistakes.
+* [x] This project uses `ſ` ("long s"); keep an eye out for mistakes.
 * [ ] PM specifically requested submission to SR
-* [ ] Need a cover: use 001
-* [ ] 005: illustrated drop-cap **in poetry** may need special handling
+* [x] Need a cover: use 001
+* [x] 005: illustrated drop-cap **in poetry** may need special handling
+    * A helpful DP'er pointed to [Nonsense for old and young](https://www.gutenberg.org/ebooks/72827) for examples of how this can be done.
 * [x] some gesperrt in the poem, decide how to handle
     * Italic text is used for emphasis too. Use an `em.gesperrt` class?
     * Decide how to handle gesperrt in the text version. Add spacing? Ignore?

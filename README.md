@@ -26,7 +26,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
     * Clearly it's used for emphasis. Italics also in use. In the text version use `=word=` and in HTML follow the [Gesperrt Emphasis case study](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Inline_Formatting/Gesperrt_Emphasis).
 * [x] Handle gesperrt in text version
 * [x] Handle gesperrt in html version
-* [ ] Title page: names like `A——d` wrap mid-word, is there a way to control it?
+* [x] Title page: names like `A——d` wrap mid-word, is there a way to control it?
 
 ### Project manager notes ###
 
@@ -103,7 +103,7 @@ gesperrt text (which was  s p a c e d   o u t  for emphasis in the original).
 Some typographic conventions have been normalized, e.g., the use of small
 capitals to begin each stanza.
 
-p. 7: changed cant’t to can’t (If he cant’t eat)
+p. 7: changed cant’t to can’t (If he can’t eat)
 p. 9: changed tanght to taught (lessons you’d been taught)
 ```
 

@@ -343,27 +343,62 @@ For each image:
 * [x] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
 * [x] If fabricating your own cover, add the TN as noted in [Easy_Epub/Cover](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover).
 
+### Check "things to revisit"
+* [x] Check revisit list for anything left for the HTML version
+
+### Add TN
+* [x] Add transcriber's notes, example follows.
+
+```html
+<div class="transnote">
+<h2>Transcriber's Notes</h2>
+
+<p>
+Some inconsistencies in spelling, hyphenation, and punctuation have been
+retained.
+</p>
+</div>
+```
+
+An example entry might look like this. Use the book's page numbers, not PNG number.
+
+```html
+<p>
+<a href="#Page_123">p. 123</a>: changed “foo” to “fool”
+(<a href="#TN1">the fool and his money</a>)
+</p>
+```
+
+And accompany this with a target in the correction site, e.g. the below.
+Use a `<span>` if another element isn't already present; otherwise use the
+existing element and add the `id` attribute.
+
+```html
+They say that <span id="TN1">the fool and his money</span> are soon separated
+```
+
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 
-* [ ] File should start with HTML opening
+* [x] File should start with HTML opening
 ```html
 <!DOCTYPE html>
 <html lang="en">
 ```
-* [ ] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
+* [x] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
   * `<title>Alice's Adventures in Wonderland | Project Gutenberg</title>`
   * Sentence case isn't required here (but it is on the upload form)
-* [ ] Use `HTML → HTML Tidy`. Fix any reported problems.
-* [ ] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
-* [ ] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-* [ ] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
+* [x] Use `HTML → HTML Tidy`. Fix any reported problems.
+* [x] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
+* [x] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
+* [x] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
   * Validate as CSS 2.1
   * CSS3 is acceptable if current status is `REC` on [this page](https://www.w3.org/Style/CSS/current-work)
-    * e.g. use of `transparent` for illustrated drop-caps
+    * e.g. use of `color: transparent` for illustrated drop-caps
+    * or use of `display: flex` for centering a div (poetry)
     * if uploading CSS3, leave a note for WWer about it.
-* [ ] Use `HTML → HTML Link Checker`. Fix any reported problems.
-* [ ] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
+* [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
+* [x] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
 * [ ] Examine the generated EPUB and Kindle books for correctness. Use [Project Gutenberg Online Ebookmaker](https://ebookmaker.pglaf.org/).
 
 * TODO: check that all the links work. PPWB has a tool? Also check manually.
@@ -372,31 +407,6 @@ Perform these validation steps before submitting your book. Validation is also h
 * TODO: have a no-indent class too! needed sometimes
 * TODO: address drop-caps & illo drop-caps
   * TODO: how do drop caps work in verse??
-
-### Check "things to revisit"
-* [ ] Check revisit list for anything left for the HTML version
-
-### Add TN
-* [ ] Add transcriber's notes, example follows.
-
-* TODO: HTML-ize this example and indicate how to link back to origin sites.
-* TODO: should this go in pre-split and let the HTML converter handle most of it?
-* TODO: Add something about cover image TN, if that was a new image.
-
-```html
-Transcriber's Notes
-
-Some inconsistencies in spelling, hyphenation, and punctuation have been
-retained.
-```
-
-An example entry might look like this. Use the book's page numbers, not PNG number.
-
-```html
-p. 123: changed “foo” to “fool” (the fool and his money)
-```
-
-* TODO: did multiple blank lines get handled earlier?
 
 ### Review HTML
 * [ ] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
@@ -532,6 +542,9 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
   * Example: `Joe Schmo, Jane Doe, and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/American Libraries.)`
 * [ ] Anything else important, add to Notes field
   * Any CSS3 should be noted, e.g. drop-cap or other stuff.
+      * **NOTE** This project used CSS3
+          * `color: transparent` for drop-cap
+          * `display: flex` for centering
   * If project contains Hebrew, let WWer know that
 * [ ] Preview the submission
   * **After preview you have to select the upload file again!**

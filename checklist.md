@@ -6,8 +6,8 @@
 Our first set of activities will combine all proofed and formatted pages, fixing any errors and inconsistencies.
 
 ### Initial Setup
-- Choose a short, simple project name, e.g. `pascal` for “*The Provincial Letters of Blaise Pascal*”
-- Run the [setup script](https://github.com/tangledhelix/dp_pp_utils) to fetch the project resources and create the [Github](https://github.com/tangledhelix?tab=repositories&q=DP_&type=&language=&sort=) project
+* Choose a short, simple project name, e.g. `pascal` for “*The Provincial Letters of Blaise Pascal*”
+* Run the [setup script](https://github.com/tangledhelix/dp_pp_utils) to fetch the project resources and create the [Github](https://github.com/tangledhelix?tab=repositories&q=DP_&type=&language=&sort=) project
 ```shell
 cd ~/dp/util
 . venv/bin/activate
@@ -94,10 +94,10 @@ Check for:
 * [x] If book has illustrations, edit or create *List of Illustrations* (**Note:** this is not a requirement). Make sure it is 1:1 with `[Illustration]` captions. Protect with `/X...X/`.
 
 ### Edit Transliterations
-- [x] Use `Tools → Character Tools` to search for transliterations. Check the content of each transliteration. For Greek, there's a "Greek Transliteration Tool", but entering Unicode Greek is preferable.
+* [x] Use `Tools → Character Tools` to search for transliterations. Check the content of each transliteration. For Greek, there's a "Greek Transliteration Tool", but entering Unicode Greek is preferable.
 
 ### Remove Visible Page Breaks
-- [x] Run `Tools → Fixup Page Separators` to remove visible page separators
+* [x] Run `Tools → Fixup Page Separators` to remove visible page separators
 
 ### Apply Word-Frequency Checks
 * [x] Open `Tools → Word Frequency`. Double click on a word to search for it.
@@ -161,10 +161,10 @@ Check for:
 * Work through the list, correcting as appropriate.
 
 ### Apply Spellcheck
-- [x] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+* [x] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 
 ### Fix Sidenotes
-- [x] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
+* [x] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
   * Compare to page image. Move note above paragraph if feasible.
   * Otherwise, position it above the sentence to which it applies, with blank lines to prevent rewrapping if you decide that is best.
 
@@ -182,7 +182,7 @@ Check for:
   * Run checks, find para and error, move footnotes as needed
 
 ### Fix Poetry Line Numbers
-- [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
+* [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
 
 ### Check balanced markup
 Use the `Search` menu:
@@ -251,7 +251,7 @@ We now proceed to create a Plain Text Version of the book.
 * [x] Search for `<` and `>` to locate any tag markup not yet removed.
 
 ### Check revisit list
-- [x] Check "things to revisit" list for anything lingering in the text version
+* [x] Check "things to revisit" list for anything lingering in the text version
 
 ### Add TN
 * [x] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter
@@ -278,11 +278,11 @@ p. 123: changed “foo” to “fool” (the fool and his money)
 ```
 
 ### Final review
-- [x] Skim over text file to find any obvious issues
+* [x] Skim over text file to find any obvious issues
 
 ### Validation
 * [x] Run [PWBB](https://www.pgdp.net/ppwb/index.php) pptext check
-* TODO: add pptools here it supports HTML5
+* [x] Run text checks at [pptools](https://pptools.tangledhelix.com)
 
 ## Prepare the HTML Version
 Finally, we create an HTML version of the book.
@@ -307,7 +307,6 @@ Finally, we create an HTML version of the book.
 * [x] Remove the [Generated TOC](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/HTML_Menu#Generated_TOC) if it is not needed.
 * [x] If `A.M.` `P.M.` or similar abbreviations were used and have spaces, insert `&nbsp;` to avoid undesirable mid-abbreviation line wraps.
 * [x] If superscripts were used, convert to `<sup>`
-* TODO: does the HTML converter do this automatically for `^` or `^{n}`?
 * [x] Semantic fixup for italics
   * Search `<i>((.|\n)+?)</i>`
   * Replace (emphasis) `<em>$1</em>`
@@ -380,53 +379,39 @@ They say that <span id="TN1">the fool and his money</span> are soon separated
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 
-* [x] File should start with HTML opening
+* [ ] File should start with HTML opening
 ```html
 <!DOCTYPE html>
 <html lang="en">
 ```
-* [x] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
+* [ ] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
   * `<title>Alice's Adventures in Wonderland | Project Gutenberg</title>`
   * Sentence case isn't required here (but it is on the upload form)
-* [x] Use `HTML → HTML Tidy`. Fix any reported problems.
-* [x] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
-* [x] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-* [x] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
+* [ ] Use `HTML → HTML Tidy`. Fix any reported problems.
+* [ ] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
+* [ ] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
+* [ ] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
   * Validate as CSS 2.1
   * CSS3 is acceptable if current status is `REC` on [this page](https://www.w3.org/Style/CSS/current-work)
-    * e.g. use of `color: transparent` for illustrated drop-caps
-    * or use of `display: flex` for centering a div (poetry)
+    * e.g. CSS3 drop-caps
+    * or use of `display: flex;` for centering a div (poetry)
     * if uploading CSS3, leave a note for WWer about it.
-* [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
-* [x] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
-* [ ] Examine the generated EPUB and Kindle books for correctness. Use [Project Gutenberg Online Ebookmaker](https://ebookmaker.pglaf.org/).
-
-* TODO: check that all the links work. PPWB has a tool? Also check manually.
-* TODO: figure out indentation CSS for paragraphs (see wiki)
-* TODO: check paragraph vertical spacing and adjust that in CSS if needed
-* TODO: have a no-indent class too! needed sometimes
-* TODO: address drop-caps & illo drop-caps
-  * TODO: how do drop caps work in verse??
-
-### Review HTML
-* [ ] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
-* [ ] Pay particular attention to complex items like tables, poetry
-
-### Validation
+* [ ] Use `HTML → HTML Link Checker`. Fix any reported problems.
+* [ ] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
 * [ ] Run [PWBB](https://www.pgdp.net/ppwb/index.php) checks
   * [ ] [pphtml](https://www.pgdp.net/ppwb/pphtml.php)
   * [ ] [ppcomp](https://www.pgdp.net/ppwb/ppcomp.php) to compare text/html files
-  * [ ] [W3C Validator](https://validator.w3.org/#validate_by_upload+with_options)
-  * [ ] [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_upload+with_options)
-  * [ ] [ebookmaker](https://ebookmaker.pglaf.org/)
-
 * TODO: add pptools here when it supports HTML5
-  * CSS transform for pptools
+  * CSS transform for pptools:
 ```css
 /* projects with bold <b> markup */
 b:before { content: "="; }
 b:after { content: "="; }
 ```
+
+### Review HTML
+* [ ] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
+* [ ] Pay particular attention to complex items like tables, poetry
 
 ## Ebook generation
 
@@ -543,8 +528,8 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [ ] Anything else important, add to Notes field
   * Any CSS3 should be noted, e.g. drop-cap or other stuff.
       * **NOTE** This project used CSS3
-          * `color: transparent` for drop-cap
-          * `display: flex` for centering
+          * CSS3 drop-caps
+          * `display: flex;` for poetry centering
   * If project contains Hebrew, let WWer know that
 * [ ] Preview the submission
   * **After preview you have to select the upload file again!**
@@ -553,9 +538,6 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * If you notice an error in your own recently posted project, contact pgww at lists.pglaf.org ASAP
 * For projects over a month old, use the [errata process](https://www.gutenberg.org/help/errata.html)
 * If not posted within a week, contact WWers pgww at lists.pglaf.org
-
-* TODO: see HTML5 doc about using `display:flex` for centering poetry divs
-* TODO: Element and attribute names must all be in lowercase in HTML5
 
 ## Project wrap-up
 * [ ] When posted, then update PG URL in README.md, and [personal website list](https://tangledhelix.com/about)

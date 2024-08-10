@@ -25,7 +25,7 @@
 );
 
 
-$::bookmarks[0] = '315.5';
+$::bookmarks[0] = '1.0';
 $::bookmarks[1] = '235.4';
 $::bookmarks[2] = '377.0';
 $::bookmarks[3] = '308.1';

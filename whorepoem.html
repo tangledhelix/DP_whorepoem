@@ -125,14 +125,18 @@ img.w100 {width: 100%;}
 .poetry .indent0 {text-indent: -3em;}
 .poetry .indent2 {text-indent: -2em;}
 
-/* main title rendering */
-h1 .ti-xxl { font-size: 1em; }
-h1 .ti-xl { font-size: 0.8em; }
-h1 .ti-lg { font-size: 0.6em; }
-.ti-xxl { font-size: 2em; }
-.ti-xl { font-size: 1.5em; }
-.ti-lg { font-size: 1.25em; }
-.ti { line-height: 3.75em; }
+/* title / front matter rendering */
+.xxl { font-size: 200%; }
+.xl { font-size: 150%; }
+.lg { font-size: 120%; }
+h1 .xxl { font-size: 150%; }
+h1 .xl { font-size: 100%; }
+h1 .lg { font-size: 75%; }
+.tpg { line-height: 375%; font-size: 125%; }
+h1 .tpg { line-height: 250%; }
+.smaller {
+  font-size: 85%;
+}
 
 /* center a block without centering each line too */
 .center-block {display: flex; justify-content: center;}
@@ -141,10 +145,6 @@ h1 .ti-lg { font-size: 0.6em; }
 .hanging1 {
   padding-left: 1em;
   text-indent: -1em;
-}
-/* title page footer */
-.smaller {
-  font-size: 0.85em;
 }
 /* dropcap */
 .verse.idc img {
@@ -191,24 +191,24 @@ h1 .ti-lg { font-size: 0.6em; }
 <p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
 
 <h1>
-  <span class="gesperrt-xl ti-lg">THE</span><br>
-  <span class="gesperrt-xl ti-xxl">WHORE</span>:<br>
-  <span class="gesperrt-xl ti-xl">A POEM</span>.
+  <span class="gesperrt-xl tpg lg">THE</span><br>
+  <span class="gesperrt-xl tpg xxl">WHORE</span>:<br>
+  <span class="gesperrt-xl tpg xl">A POEM</span>.
 </h1>
 
-<p class="center ti-lg">[Price One Shilling.]</p>
+<p class="center tpg lg">[Price One Shilling.]</p>
 
 <div class="chapter"></div>
 <hr class="chap">
 <p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
 
-<p class="center ti">
-  <span class="gesperrt-xl ti-lg">THE</span><br>
-  <span class="ti-xxl"><span class="gesperrt-xl">WHORE</span>:</span><br>
-  <span class="ti-xl"><span class="gesperrt-xl">A POEM</span>.</span>
+<p class="center tpg">
+  <span class="gesperrt-xl lg">THE</span><br>
+  <span class="xxl"><span class="gesperrt-xl">WHORE</span>:</span><br>
+  <span class="xl"><span class="gesperrt-xl">A POEM</span>.</span>
 </p>
 
-<p class="center ti-lg p2">
+<p class="center tpg lg p2">
   Written by a <em class="gesperrt">WHORE</em> of <span class="smcap">Quality</span>.
 </p>
 
@@ -244,11 +244,11 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
   <img class="w100" src="images/i_005a.png" alt="">
 </figure>
 
-<p class="center ti">
-  <span class="gesperrt-xl ti-lg">THE</span><br>
-  <span class="ti-xxl"><span class="gesperrt-xl">WHORE</span>:</span><br>
-  <span class="ti-xl"><span class="gesperrt-xl">A POEM</span>.</span>
-</p>
+<h2 class="center tpg">
+  <span class="gesperrt-xl lg">THE</span><br>
+  <span class="xxl"><span class="gesperrt-xl">WHORE</span>:</span><br>
+  <span class="xl"><span class="gesperrt-xl">A POEM</span>.</span>
+</h2>
 
 <div class="poetry-container">
 <div class="poetry">
@@ -400,7 +400,7 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
     <div class="verse indent0">She wonder’d much, and told the virgin so,</div>
     <div class="verse indent0">Who did not hide the truth, but let her know.</div>
     <div class="verse indent0">Amaz’d the matron lifted up her eyes,</div>
-    <div class="verse indent0">And shew’d her horror by her vast surprize.—</div>
+    <div class="verse indent0">And shew’d her horror by her vast surprize.</div>
   </div>
   <div class="stanza">
     <div class="verse indent2">‘O! shame to all that’s pious and that’s good,</div>
@@ -621,7 +621,7 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
     <div class="verse indent0">I thought that time would reconcile my fate,</div>
     <div class="verse indent0">And lift me far above my present state;</div>
     <div class="verse indent0">Such fatal folly I must still deplore,</div>
-    <div class="verse indent0">No wife am I, but a <em class="allsmcap gesperrt">NEGLECTED</em> <em class="gesperrt">WHORE</em>!</div>
+    <div class="verse indent0">No wife am I, but a <em class="gesperrt"><span class="allsmcap">NEGLECTED</span> WHORE</em>!</div>
   </div>
   <div class="stanza">
     <div class="verse indent2"><span class="smcap gesperrt">Fruition</span> soon my lover’s passion cool’d,</div>
@@ -690,7 +690,7 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
 <hr class="chap">
 
 <div class="transnote">
-<h2>Transcriber's Notes</h2>
+<h2>Transcriber’s Note</h2>
 
 <p>
 Some inconsistencies in spelling, hyphenation, and punctuation have been

@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>pphtml report</title>
+<style type="text/css">
+body { margin-left: 1em;}
+.red { color:red; }
+.green { color:green; }
+.redonyel { color:red; background-color: #FFFFAA; }
+.greenonyel { color:green; background-color: #FFFFAA; }
+.silverfade { color:silver; }
+.black { color:black; }
+.dim { color:#999999; }
+.warn { color:brown; background-color:white; }
+td { padding-right:2em; }
+table { margin-left:2em; }
+</style>
+</head>
+<body>
+<pre>
+********************************************************************************
+* PPHTML RUN REPORT                                                            *
+*                                       started: Saturday, 2024-08-10 15:00:26 *
+********************************************************************************
+processing file: whorepoem.html
+pphtml version: 2022.12.28
+
+----- image tests --------------------------------------------------------------
+[pass] image folder consistency tests
+[pass] all images in the images folder used in the HTML (4 images)
+[pass] all target images in HTML available in images folder
+[info] image file sizes
+  i_005a.png (236K)
+  cover.jpg (134K)
+  i_023.png (107K)
+  i_005b.png (88K)
+[pass] cover image dimensions check
+[pass] other image dimensions check
+[info] image summary
+    i_023.png, 886x496, PNG LA
+    i_005b.png, 776x759, PNG LA
+    cover.jpg, 2877x4000, JPEG (8-bit pixels, black and white)
+    i_005a.png, 4000x387, PNG LA
+
+----- link tests ---------------------------------------------------------------
+[pass] external links check
+[pass] link to cover image for epub (using link rel='icon') (found cover.jpg in images folder)
+[info] file has 1 link to images (including cover.jpg)
+[info] file has 6 internal links to 6 expected targets
+[info] file has 27 actual internal targets
+[pass] all links resolve to correct target
+[info] targets not referenced with href
+  Page_1, Page_3, Page_5, i_005a, Page_6, Page_8, Page_10, Page_11
+  Page_12, Page_13, Page_14, Page_15, Page_16, Page_17, Page_18
+  Page_19, Page_20, Page_21, Page_22, Page_23 ... more not reported
+
+----- DP PPV tests -------------------------------------------------------------
+[info] title/h1 compare:
+       title: The Whore: a Poem. | Project Gutenberg
+          h1: THE  WHORE:  A POEM.
+[pass] no &lt;pre> tags
+[info] charset check
+       claimed: &lt;meta charset="UTF-8">
+       detected: HTML document, UTF-8 Unicode text, with CRLF line terminators
+[pass] Document Type Header (file is HTML5)
+[pass] image alt tag tests
+       0 images with missing alt tags
+       2 images with empty alt tags
+       0 images with blank alt tags
+       1 images with textual alt tags
+       max alt text length: 2
+[user] please confirm the language code:
+       &lt;html lang="en">
+[info] document heading outline
+       h1: THE WHORE : A POEM .
+         h2: THE WHORE : A POEM .
+         h2: Transcriber's Notes
+
+----- Project Gutenberg tests --------------------------------------------------
+[info] class chapter count and h2 count
+       3 class chapter, 2 &lt;h2> tags
+
+----- CSS tests ----------------------------------------------------------------
+[<span class='redonyel'>warn</span>] CSS checks (defined but not used)
+  defined CSS:
+    allsmcap center center-block chap chapter figcenter firstword
+    fnanchor footnote gesperrt gesperrt-xl hanging1 idc illowe10
+    illowp100 indent0 indent2 label lg nowrap p2 p4 pagenum poetry
+    poetry-container smaller smcap stanza tpg transnote verse w100
+    x-ebookmaker xl xxl
+  used CSS:
+    allsmcap center center-block chap chapter figcenter firstword
+    fnanchor footnote gesperrt gesperrt-xl hanging1 idc illowe10
+    illowp100 indent0 indent2 label lg nowrap p2 p4 pagenum poetry
+    poetry-container smaller smcap stanza tpg transnote verse w100
+    x-ebookmaker-drop xl xxl
+  defined but not used:
+    
+--------------------------------------------------------------------------------
+run complete</pre></body></html>

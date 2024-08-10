@@ -258,7 +258,7 @@ We now proceed to create a Plain Text Version of the book.
 * [x] Rewrap this section of text when finished.
 
 ```text
-Transcriber's Notes
+Transcriber’s Note
 
 
 Some inconsistencies in spelling, hyphenation, and punctuation have been
@@ -350,7 +350,7 @@ For each image:
 
 ```html
 <div class="transnote">
-<h2>Transcriber's Notes</h2>
+<h2>Transcriber’s Note</h2>
 
 <p>
 Some inconsistencies in spelling, hyphenation, and punctuation have been
@@ -379,28 +379,28 @@ They say that <span id="TN1">the fool and his money</span> are soon separated
 ### Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 
-* [ ] File should start with HTML opening
+* [x] File should start with HTML opening
 ```html
 <!DOCTYPE html>
 <html lang="en">
 ```
-* [ ] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
+* [x] Confirm that the `<title>` tag matches the format specified by the [Post-Processing FAQ](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_FAQ#HTML_title).
   * `<title>Alice's Adventures in Wonderland | Project Gutenberg</title>`
   * Sentence case isn't required here (but it is on the upload form)
-* [ ] Use `HTML → HTML Tidy`. Fix any reported problems.
-* [ ] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
-* [ ] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-* [ ] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
+* [x] Use `HTML → HTML Tidy`. Fix any reported problems.
+* [x] Use [W3C Markup Validation Service](http://validator.w3.org/#validate-by-upload). Fix any reported problems.
+* [x] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
+* [x] Use [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any reported problems.
   * Validate as CSS 2.1
   * CSS3 is acceptable if current status is `REC` on [this page](https://www.w3.org/Style/CSS/current-work)
     * e.g. CSS3 drop-caps
     * or use of `display: flex;` for centering a div (poetry)
     * if uploading CSS3, leave a note for WWer about it.
-* [ ] Use `HTML → HTML Link Checker`. Fix any reported problems.
-* [ ] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
-* [ ] Run [PWBB](https://www.pgdp.net/ppwb/index.php) checks
-  * [ ] [pphtml](https://www.pgdp.net/ppwb/pphtml.php)
-  * [ ] [ppcomp](https://www.pgdp.net/ppwb/ppcomp.php) to compare text/html files
+* [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
+* [x] Use `HTML → PPVimage` to check for image-related errors. Fix any reported problems.
+* [x] Run [PWBB](https://www.pgdp.net/ppwb/index.php) checks
+  * [x] [pphtml](https://www.pgdp.net/ppwb/pphtml.php)
+  * [x] [ppcomp](https://www.pgdp.net/ppwb/ppcomp.php) to compare text/html files
 * TODO: add pptools here when it supports HTML5
   * CSS transform for pptools:
 ```css

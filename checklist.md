@@ -432,15 +432,13 @@ b:after { content: "="; }
 * Also a utility `kepubify` (link below) that converts; it's unclear what this conversion does that's any better than just renaming the file. Changing the filename is enough to invoke a different / better rendering engine on Kobo devices.
 
 ### Build and upload Ebooks
-* [ ] `make zip`
-* [ ] Upload to [ebookmaker](https://ebookmaker.pglaf.org/) to generate Ebook files
-* [ ] `make ebooksget cache={cache_number}` to download ebook files
-* [ ] Convert epub3 with [kepubify](https://pgaskin.net/kepubify/try/)
-* [ ] Make a copy of epub3 to kepub (a simple renaming)
-  * `cp whorepoem-images-epub3.epub whorepoem-images.kepub.epub`
-* [ ] Upload epub3 with [Send to Kindle](https://www.amazon.com/gp/sendtokindle)
-* [ ] Add epub3 to Apple Books
-* [ ] Add epub, epub3, renamed-kepub, converted-kepub to Dropbox for Kobo
+* [x] `make zip`
+* [x] Upload to [ebookmaker](https://ebookmaker.pglaf.org/) to generate Ebook files
+* [x] `make ebooksget cache={cache_number}` to download ebook files
+* [x] Convert epub3 with [kepubify](https://pgaskin.net/kepubify/try/)
+* [x] Upload epub3 with [Send to Kindle](https://www.amazon.com/gp/sendtokindle)
+* [x] Add epub3 to Apple Books
+* [x] Add epub, epub3, renamed-kepub, converted-kepub to Dropbox for Kobo
 
 ### Ebook review
 <details>
@@ -448,34 +446,33 @@ b:after { content: "="; }
 Don't necessarily have to do *all* of these, but these are what I have.
 </summary>
 
-* [ ] Review Ebook ToC in at least one e-reader, for structure & content
+* [x] Review Ebook ToC in at least one e-reader, for structure & content
   * Can try using `title=` attr if a header title has footnote marker etc.
-* [ ] Mac
-  * [ ] Adobe Digital Editions (epub3)
-  * [ ] Apple Books
-  * [ ] Kindle Previewer (epub3)
-  * [ ] Calibre (epub3)
-* [ ] Phone
-  * [ ] Apple Books (iPhone)
-  * [ ] Kindle (iPhone)
-* [ ] Tablet
-  * [ ] Kindle (Android)
-  * [ ] Google Play Books - Android (Dropbox)
-  * [ ] Apple Books - iPad mini
-  * [ ] Kindle - iPad mini
-* [ ] E-ink
-  * [ ] Kobo Libra Colour (epub3)
-  * [ ] Kobo Libra Colour (renamed-kepub)
-  * [ ] Kobo Libra Colour (converted-kepub)
-  * [ ] Kindle Paperwhite
+* [x] Mac
+  * [x] Adobe Digital Editions (epub3)
+  * [x] Apple Books
+  * [x] Kindle Previewer (epub3)
+  * [x] Calibre (epub3)
+* [x] Phone
+  * [x] Apple Books (iPhone)
+  * [x] Kindle (iPhone)
+* [x] Tablet
+  * [x] Kindle (Android)
+  * [x] Google Play Books - Android (Dropbox)
+  * [x] Apple Books - iPad mini
+* [x] E-ink
+  * [x] Kobo Libra Colour (epub3)
+  * [x] Kobo Libra Colour (renamed-kepub)
+  * [x] Kobo Libra Colour (converted-kepub)
+  * [x] Kindle Paperwhite
 
 </details>
 
 ### Device / cloud cleanup
-* [ ] Remove from Dropbox
-* [ ] Remove from Kindle and Kindle library
-* [ ] Remove from Apple Books
-* [ ] Remove from Kobo device
+* [x] Remove from Dropbox
+* [x] Remove from Kindle and Kindle library
+* [x] Remove from Apple Books
+* [x] Remove from Kobo device
 
 ## Smooth Reading
 

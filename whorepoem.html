@@ -18,6 +18,7 @@ h1,h2 {
     clear: both;
 }
 h1 { line-height: 2.25em; }
+h2.nobreak  {page-break-before: avoid;}
 
 p {
     margin-top: .51em;
@@ -67,8 +68,8 @@ div.chapter {page-break-before: always;}
 }
 .gesperrt-xl
 {
-    letter-spacing: 1em;
-    margin-right: -1em;
+    letter-spacing: 0.75em;
+    margin-right: -0.75em;
 }
 
 em.gesperrt
@@ -109,7 +110,7 @@ img.w100 {width: 100%;}
 .poetry-container {display: flex; justify-content: center;}
 /*.poetry-container {text-align: center;}*/
 .poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-.poetry .stanza   {margin: 1em auto; page-break-inside: avoid;}
+.poetry .stanza   {margin: 1em auto;}
 .poetry .verse    {text-indent: -3em; padding-left: 3em;}
 
 /* Transcriber's notes */
@@ -126,11 +127,11 @@ img.w100 {width: 100%;}
 .poetry .indent2 {text-indent: -2em;}
 
 /* title / front matter rendering */
-.xxl { font-size: 200%; }
-.xl { font-size: 150%; }
-.lg { font-size: 120%; }
-h1 .xxl { font-size: 150%; }
-h1 .xl { font-size: 100%; }
+.xxl { font-size: 175%; }
+.xl { font-size: 130%; }
+.lg { font-size: 115%; }
+h1 .xxl { font-size: 140%; }
+h1 .xl { font-size: 95%; }
 h1 .lg { font-size: 75%; }
 .tpg { line-height: 375%; font-size: 125%; }
 h1 .tpg { line-height: 250%; }
@@ -244,7 +245,7 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
   <img class="w100" src="images/i_005a.png" alt="">
 </figure>
 
-<h2 class="center tpg">
+<h2 class="center tpg nobreak">
   <span class="gesperrt-xl lg">THE</span><br>
   <span class="xxl"><span class="gesperrt-xl">WHORE</span>:</span><br>
   <span class="xl"><span class="gesperrt-xl">A POEM</span>.</span>
@@ -690,7 +691,7 @@ the Ladies <span class="smcap nowrap">L——r</span>, <span class="smcap nowrap
 <hr class="chap">
 
 <div class="transnote">
-<h2>Transcriber’s Note</h2>
+<h2 class="nobreak">Transcriber’s Note</h2>
 
 <p>
 Some inconsistencies in spelling, hyphenation, and punctuation have been

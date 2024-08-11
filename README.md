@@ -15,7 +15,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 ### Things to revisit ###
 
 * [x] This project uses `ſ` ("long s"); keep an eye out for mistakes.
-* [ ] PM specifically requested submission to SR
+* [x] PM specifically requested submission to SR
 * [x] Need a cover: use 001
 * [x] 005: illustrated drop-cap **in poetry** may need special handling
     * A helpful DP'er pointed to [Nonsense for old and young](https://www.gutenberg.org/ebooks/72827) for examples of how this can be done.
@@ -105,6 +105,7 @@ capitals to begin each stanza.
 
 p. 7: changed cant’t to can’t (If he can’t eat)
 p. 9: changed tanght to taught (lessons you’d been taught)
+p. 14: changed Goals to Gaols (Whips, Gaols, Diseases!)
 ```
 
 ### Ebook review ###

@@ -485,7 +485,7 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [x] Go to [project page](https://www.pgdp.net/c/project.php?id=projectID667eac014dacd), select SR time period, upload `whorepoem-sr.zip`
 * [x] Subscribe to “user uploads a SR report” item
 * [x] Update my Trello project board with due date, set card to SR status
-* [ ] If time permits, smooth read it myself as well
+* [x] If time permits, smooth read it myself as well
 
 ### Process SR feedback
 * [ ] After SR is finished, processed SR feedback into project.

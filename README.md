@@ -111,3 +111,19 @@ p. 14: changed Goals to Gaols (Whips, Gaols, Diseases!)
 ### Ebook review ###
 
 ### Smooth Reading ###
+
+One SR mentions Moon+ on Android doesn't render the illustrated drop-cap correctly. Investigating further, the problem seems to be that Moon+ is *trying* to render it, instead of ignoring it and using the `x-ebookmaker` CSS overrides like it should. Gave some feedback and notes to SR to follow up with Moon+ support, but Moon+ doesn't seem to be interested in fixing (or else they don't understand the description of the problem.)
+
+```
+Is it an empty name, and nought but found[** "sound" in scan (long-s scanno) ]?
+```
+
+Corrected to `sound` (good catch!)
+
+```
+Whips, Goals[** possible typo for "Gaols" (matches scan as-is) ], Diseases! all the WHORE assail,
+```
+
+Corrected to `Gaols` (second good catch!)
+
+Two SRs found no issues. A fourth noted some potential issues but none of them seemed correct to me, left those as-is.
